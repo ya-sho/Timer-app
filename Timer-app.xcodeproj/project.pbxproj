@@ -12,6 +12,8 @@
 		29B5147A25F747AF0005079C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B5147825F747AF0005079C /* Main.storyboard */; };
 		29B5147C25F747B10005079C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B5147B25F747B10005079C /* Assets.xcassets */; };
 		29B5147F25F747B10005079C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B5147D25F747B10005079C /* LaunchScreen.storyboard */; };
+		29B5148825F74A150005079C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5148625F74A150005079C /* SecondViewController.swift */; };
+		29B5148925F74A150005079C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B5148725F74A150005079C /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		29B5147B25F747B10005079C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B5147E25F747B10005079C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29B5148025F747B10005079C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B5148625F74A150005079C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		29B5148725F74A150005079C /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				29B5147B25F747B10005079C /* Assets.xcassets */,
 				29B5147D25F747B10005079C /* LaunchScreen.storyboard */,
 				29B5148025F747B10005079C /* Info.plist */,
+				29B5148625F74A150005079C /* SecondViewController.swift */,
+				29B5148725F74A150005079C /* SecondViewController.xib */,
 			);
 			path = "Timer-app";
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B5148925F74A150005079C /* SecondViewController.xib in Resources */,
 				29B5147F25F747B10005079C /* LaunchScreen.storyboard in Resources */,
 				29B5147C25F747B10005079C /* Assets.xcassets in Resources */,
 				29B5147A25F747AF0005079C /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B5148825F74A150005079C /* SecondViewController.swift in Sources */,
 				29B5147725F747AF0005079C /* ViewController.swift in Sources */,
 				29B5147525F747AF0005079C /* AppDelegate.swift in Sources */,
 			);
