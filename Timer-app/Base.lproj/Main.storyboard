@@ -21,31 +21,40 @@
                                 <rect key="frame" x="0.0" y="458" width="375" height="209"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="時間をはかる">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="touchedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WP5-T3-Z0c"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVx-4y-jcO">
-                                <rect key="frame" x="160" y="136" width="52" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="拉面计时器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVx-4y-jcO">
+                                <rect key="frame" x="102" y="136" width="171" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="UW0-ho-DhB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ラーメン2-1" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-MP-A6q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ラーメン2-1" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-MP-A6q">
                                 <rect key="frame" x="16" y="220" width="343" height="264"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.66852258794761887" blue="0.18740619001393377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qVx-4y-jcO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="72" id="4ux-PO-dCs"/>
+                            <constraint firstItem="qVx-4y-jcO" firstAttribute="centerX" secondItem="7l3-MP-A6q" secondAttribute="centerX" id="8Bp-EX-s9N"/>
                             <constraint firstAttribute="bottom" secondItem="Cym-Pj-QBy" secondAttribute="bottom" id="9ui-V8-rIC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7l3-MP-A6q" secondAttribute="bottom" constant="183" id="Dng-Kd-H0L"/>
                             <constraint firstItem="Cym-Pj-QBy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="F7F-c4-JWd"/>
+                            <constraint firstItem="qVx-4y-jcO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="Hn7-Cy-f5M"/>
                             <constraint firstItem="Cym-Pj-QBy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NjJ-O7-sQJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qVx-4y-jcO" secondAttribute="trailing" constant="102" id="Sb8-CA-l6y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cym-Pj-QBy" secondAttribute="bottom" id="XcX-Qb-ls9"/>
+                            <constraint firstItem="7l3-MP-A6q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZdB-D4-2xB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cym-Pj-QBy" secondAttribute="trailing" id="dPW-Xu-a7a"/>
+                            <constraint firstItem="7l3-MP-A6q" firstAttribute="top" secondItem="qVx-4y-jcO" secondAttribute="bottom" constant="58" id="s7b-E1-7TG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
